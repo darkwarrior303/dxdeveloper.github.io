@@ -262,6 +262,9 @@ footer .box .third-box .email-box button{
 		height: 38vh;
 		background-size: cover;
 	}
+	.landing-page header nav .collapse ul li{
+		text-align: center;
+	}
 	.landing-page .banner .box .right-side img {
 		margin-left: 0;
 		width: 100%;
@@ -316,11 +319,14 @@ footer .box .third-box .email-box button{
 
 
 /*TABLET SCREEN START*/
-@media screen and (min-device-width: 768px) and (max-device-width: 1025px){
+@media screen and (min-device-width: 600px) and (max-device-width: 1025px){
 	.landing-page {
 		height: 50vh;
 		background-size: cover;
 		background-position: center;
+	}
+	.landing-page header nav .collapse ul li{
+		text-align: center;
 	}
 	.landing-page .banner .right-side img{
 		width: 100%;
